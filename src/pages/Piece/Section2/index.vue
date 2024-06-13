@@ -213,7 +213,7 @@ onMounted(() => {
   });
 });
 </script>
-
+1
 <style scoped lang="scss">
 .main {
   background-color: rgb(255, 255, 255);
