@@ -13,7 +13,8 @@ app.component('Navigation', Navigation);
 app.component('Sidebar', Sidebar)
 
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 app.mount("#app");

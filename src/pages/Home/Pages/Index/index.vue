@@ -23,9 +23,9 @@
               <img src="./images/avatar.png" alt=""><span>数字人</span>
             </div>
             <div class="right">
-              <img src="./images/icon.png" alt="">
-              <span>4.1万</span>
               <img src="./images/icon1.png" alt="">
+              <span>4.1万</span>
+              <img src="./images/icon2.png" alt="">
               <span>4.1万</span>
             </div>
           </div>
@@ -39,9 +39,9 @@
               <img src="./images/avatar.png" alt=""><span>数字人</span>
             </div>
             <div class="right">
-              <img src="./images/icon.png" alt="">
-              <span>4.1万</span>
               <img src="./images/icon1.png" alt="">
+              <span>4.1万</span>
+              <img src="./images/icon2.png" alt="">
               <span>4.1万</span>
             </div>
           </div>
@@ -55,9 +55,9 @@
               <img src="./images/avatar.png" alt=""><span>数字人</span>
             </div>
             <div class="right">
-              <img src="./images/icon.png" alt="">
-              <span>4.1万</span>
               <img src="./images/icon1.png" alt="">
+              <span>4.1万</span>
+              <img src="./images/icon2.png" alt="">
               <span>4.1万</span>
             </div>
           </div>
@@ -71,9 +71,9 @@
               <img src="./images/avatar.png" alt=""><span>数字人</span>
             </div>
             <div class="right">
-              <img src="./images/icon.png" alt="">
-              <span>4.1万</span>
               <img src="./images/icon1.png" alt="">
+              <span>4.1万</span>
+              <img src="./images/icon2.png" alt="">
               <span>4.1万</span>
             </div>
           </div>
@@ -87,9 +87,9 @@
               <img src="./images/avatar.png" alt=""><span>数字人</span>
             </div>
             <div class="right">
-              <img src="./images/icon.png" alt="">
-              <span>4.1万</span>
               <img src="./images/icon1.png" alt="">
+              <span>4.1万</span>
+              <img src="./images/icon2.png" alt="">
               <span>4.1万</span>
             </div>
           </div>
@@ -103,9 +103,9 @@
               <img src="./images/avatar.png" alt=""><span>数字人</span>
             </div>
             <div class="right">
-              <img src="./images/icon.png" alt="">
-              <span>4.1万</span>
               <img src="./images/icon1.png" alt="">
+              <span>4.1万</span>
+              <img src="./images/icon2.png" alt="">
               <span>4.1万</span>
             </div>
           </div>
