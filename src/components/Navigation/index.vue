@@ -12,7 +12,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-          <router-link class="nav-item" to="/home">
+          <router-link class="nav-item" to="/">
             <span class="nav-link active">首页</span>
           </router-link>
 

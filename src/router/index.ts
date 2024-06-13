@@ -25,7 +25,7 @@ let router = createRouter({
   routes: [
     {
       name: '首页',
-      path: '/home',
+      path: '/',
       component: Home,
       children: [
         {
