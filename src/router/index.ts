@@ -20,6 +20,7 @@ import Paid from '@/pages/Paid/index.vue'
 import Tutorial from '@/pages/Tutorial/index.vue'
 import Piece from '@/pages/Piece/index.vue'
 
+
 let router = createRouter({
   history: createWebHashHistory(),
   routes: [

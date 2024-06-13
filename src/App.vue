@@ -1,19 +1,15 @@
 <template>
-
-  <div class="app">
-    <Navigation></Navigation>
+  <div class="pages">
     <router-view></router-view>
   </div>
-
 </template>
 
 <script setup lang="ts">
 
-document.title = '数字人平台';
 </script>
 
 <style scoped lang="scss">
-.app {
+.pages {
   background-color: rgb(241, 241, 241);
 }
 </style>

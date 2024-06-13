@@ -5,47 +5,37 @@
       <div class="top">
         <ul class="list-group">
           <router-link class="list-group-item active" data-icon="icon1" to="/">
-            <!-- <img
-              :src="Icon1 ? 'src/components/Sidebar/images/icon1.png' : 'src/components/Sidebar/images/active_icon1.png'"
-              class="icon "> -->
-
             <img src="./images/icon1.png" class="icon" alt="">
             <a class="li-item">首页</a>
           </router-link>
 
           <router-link class="list-group-item" data-icon="icon2" to="/recent_work">
-            <img
-              :src="Icon2 ? 'src/components/Sidebar/images/icon2.png' : 'src/components/Sidebar/images/active_icon2.png'"
-              class="icon">
+            <img src="./images/icon2.png" class="icon icon2" alt="">
             <a class="li-item">最近作品</a>
           </router-link>
 
           <router-link class="list-group-item" data-icon="icon3" to="/collection">
-            <img
-              :src="Icon3 ? 'src/components/Sidebar/images/icon3.png' : 'src/components/Sidebar/images/active_icon3.png'"
-              class="icon ">
+            <img src="./images/icon3.png" class="icon" alt="">
             <a class="li-item">我的收藏</a>
+
           </router-link>
           <router-link class="list-group-item" data-icon="icon4" to="/personal_space">
-            <img
-              :src="Icon4 ? 'src/components/Sidebar/images/icon4.png' : 'src/components/Sidebar/images/active_icon4.png'"
-              class="icon ">
+            <img src="./images/icon4.png" class="icon" alt="">
             <a class="li-item">个人空间</a>
           </router-link>
+
           <router-link class="list-group-item" data-icon="icon5" to="/shared_space">
-            <img
-              :src="Icon5 ? 'src/components/Sidebar/images/icon5.png' : 'src/components/Sidebar/images/active_icon5.png'"
-              class="icon">
+            <img src="./images/icon5.png" class="icon" alt="">
             <a class="li-item">共享空间</a>
             <img src="./images/vip.png" alt="" class="vip">
           </router-link>
+
           <router-link class="list-group-item" data-icon="icon6" to="/brand">
-            <img
-              :src="Icon6 ? 'src/components/Sidebar/images/icon6.png' : 'src/components/Sidebar/images/active_icon6.png'"
-              class="icon ">
+            <img src="./images/icon6.png" class="icon" alt="">
             <a class="li-item">品牌规范 </a>
             <img src="./images/vip.png" alt="" class="vip">
           </router-link>
+
         </ul>
       </div>
       <div class="bottom">
@@ -90,48 +80,22 @@ import { onMounted, ref } from 'vue'
 const leave1 = ref(0)
 const leave2 = ref(500)
 
-const Icon1 = ref(true)
-const Icon2 = ref(true)
-const Icon3 = ref(true)
-const Icon4 = ref(true)
-const Icon5 = ref(true)
-const Icon6 = ref(true)
-
-// const changeIcon = (icon: string | null | undefined) => {
-//   if (icon == 'icon1') {
-//     Icon1.value = !Icon1.value
-//   } else if (icon == 'icon2') {
-//     Icon2.value = !Icon2.value
-//   } else if (icon == 'icon3') {
-//     Icon3.value = !Icon3.value
-
-//   } else if (icon == 'icon4') {
-//     Icon4.value = !Icon4.value
-
-//   } else if (icon == 'icon5') {
-//     Icon5.value = !Icon5.value
-
-//   } else if (icon == 'icon6') {
-//     Icon6.value = !Icon5.value
-//   }
-// }
-
 
 onMounted(() => {
   const elements = document.querySelectorAll('.list-group-item');
   elements.forEach(element => {
 
     element.addEventListener('click', () => {
-      // const activeElement = document.querySelector('.active');
-      elements.forEach(e => e.classList.remove('active'))
-      // const icon1 = activeElement?.getAttribute("data-icon")
-      // changeIcon(icon1)
 
-      // const icon2 = element.getAttribute("data-icon")
+      elements.forEach(e => e.classList.remove('active'))
+
       element.classList.add('active');
-      // changeIcon(icon2)
+
     });
   });
+
+
+
 })
 
 
@@ -153,8 +117,8 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 62px;
-    background-color: #FFFFFF;
+    height: 624px;
+    background-color: rgb(255, 255, 255);
 
     padding: 10px;
 
@@ -212,7 +176,6 @@ onMounted(() => {
           color: #676767;
           font-size: 12px;
         }
-
       }
 
       .progress-bar {
