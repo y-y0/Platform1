@@ -5,6 +5,7 @@
 </template>
 
 <script setup lang="ts">
+document.title = '数字人平台'
 
 </script>
 
