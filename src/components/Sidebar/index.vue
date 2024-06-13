@@ -151,7 +151,7 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 622px;
+    height: 624px;
     background-color: #FFFFFF;
 
     padding: 10px;
