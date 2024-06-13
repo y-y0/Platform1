@@ -5,9 +5,11 @@
       <div class="top">
         <ul class="list-group">
           <router-link class="list-group-item active" data-icon="icon1" to="/">
-            <img
+            <!-- <img
               :src="Icon1 ? 'src/components/Sidebar/images/icon1.png' : 'src/components/Sidebar/images/active_icon1.png'"
-              class="icon ">
+              class="icon "> -->
+
+            <img src="./images/icon1.png" class="icon" alt="">
             <a class="li-item">首页</a>
           </router-link>
 
@@ -151,7 +153,7 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 624px;
+    height: 62px;
     background-color: #FFFFFF;
 
     padding: 10px;
