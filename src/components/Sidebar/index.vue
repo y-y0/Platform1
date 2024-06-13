@@ -95,24 +95,24 @@ const Icon4 = ref(true)
 const Icon5 = ref(true)
 const Icon6 = ref(true)
 
-const changeIcon = (icon: string | null | undefined) => {
-  if (icon == 'icon1') {
-    Icon1.value = !Icon1.value
-  } else if (icon == 'icon2') {
-    Icon2.value = !Icon2.value
-  } else if (icon == 'icon3') {
-    Icon3.value = !Icon3.value
+// const changeIcon = (icon: string | null | undefined) => {
+//   if (icon == 'icon1') {
+//     Icon1.value = !Icon1.value
+//   } else if (icon == 'icon2') {
+//     Icon2.value = !Icon2.value
+//   } else if (icon == 'icon3') {
+//     Icon3.value = !Icon3.value
 
-  } else if (icon == 'icon4') {
-    Icon4.value = !Icon4.value
+//   } else if (icon == 'icon4') {
+//     Icon4.value = !Icon4.value
 
-  } else if (icon == 'icon5') {
-    Icon5.value = !Icon5.value
+//   } else if (icon == 'icon5') {
+//     Icon5.value = !Icon5.value
 
-  } else if (icon == 'icon6') {
-    Icon6.value = !Icon5.value
-  }
-}
+//   } else if (icon == 'icon6') {
+//     Icon6.value = !Icon5.value
+//   }
+// }
 
 
 onMounted(() => {
